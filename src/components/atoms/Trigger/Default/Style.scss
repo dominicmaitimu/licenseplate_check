@@ -1,0 +1,13 @@
+.trigger-default {
+    display: flex;
+    font-family: 'license_plateregular';
+    font-size: 1.25em;
+    div {
+        &:first-child {
+            margin-right: .625em;
+        }
+        &:last-child {
+            padding: .313em 0 .625em;
+        }
+    }
+}

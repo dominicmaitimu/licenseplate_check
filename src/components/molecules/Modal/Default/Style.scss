@@ -1,0 +1,29 @@
+.modal-default {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(black, 0.5);
+    > div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-radius: .938em;
+        padding: 2.5em 3.125em;
+        background-color: white;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 20px 60px 0 rgba(black, 1);
+        p {
+            font-family: 'license_plateregular', sans-serif;
+            font-size: 3.125em;
+            line-height: 1.2;
+            margin: 0;
+            text-align: center;
+            span {
+                color: #FD9D00;
+            }
+        }
+    }
+}

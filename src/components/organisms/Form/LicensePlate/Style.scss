@@ -1,0 +1,22 @@
+.form-licenseplate {
+    background-color: transparent;
+    left: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    trigger-default,
+    trigger-check {
+        position: absolute;
+    }
+    trigger-default {
+        top: 0;
+        left: .938em;
+        transform: translateY(-100%);
+    }
+    trigger-check {
+        bottom: 0;
+        right: .938em;
+        transform: translateY(100%);
+    }
+}

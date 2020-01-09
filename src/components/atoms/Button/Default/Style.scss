@@ -1,0 +1,15 @@
+.button-default {
+    background-color: black;
+    border-radius: .188em;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'license_plateregular';
+    font-size: 1.25em;
+    outline: none;
+    padding: .625em .938em;
+    transition: background-color 300ms ease;
+    &:hover {
+        background-color: darken(#c2d1db, 20%);
+    }
+}

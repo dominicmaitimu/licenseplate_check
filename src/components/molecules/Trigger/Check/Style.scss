@@ -1,0 +1,14 @@
+.trigger-check {
+    display: flex;
+    font-family: 'license_plateregular';
+    font-size: 1.25em;
+    align-items: baseline;
+    div {
+        &:first-child {
+            padding: .313em 0 .625em;
+        }
+        &:last-child {
+            margin-left: 1.25em;
+        }
+    }
+}
